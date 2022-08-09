@@ -1,0 +1,46 @@
+/* General styles */
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: darkorange;
+}
+ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+  background-color: rgb(255, 203, 203);
+}
+ul {
+  list-style-type: square;
+  list-style-image: url(example.png);
+  list-style-position: inside;
+  background-color: rgb(191, 252, 191);
+}
+dl,
+p {
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 1.5;
+  background-color: rgb(204, 252, 252);
+}
+
+/* Description list styles */
+
+dd {
+  color: rgb(212, 0, 255);
+}
+dt {
+  line-height: 1.5;
+  color: rgb(255, 0, 0);
+}
+
+dt {
+  font-weight: bold;
+  background-color: rgb(255, 255, 157);
+}

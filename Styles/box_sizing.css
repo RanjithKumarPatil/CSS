@@ -1,0 +1,42 @@
+p {
+  box-sizing: content-box;
+  width: 100%;
+
+  box-sizing: content-box;
+  width: 100%;
+  border: solid #5b6dcd 10px;
+  padding: 5px;
+}
+h1 {
+  box-sizing: border-box;
+  width: 100%;
+  border: solid #ff00ff 10px;
+  padding: 5px;
+}
+/* div {
+  width: 160px;
+  height: 80px;
+  padding: 20px;
+  border: 8px solid red;
+  background: yellow;
+} */
+
+/* .content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+} */
+.box {
+  box-sizing: border-box;
+  box-sizing: content-box;
+  width: 350px;
+  inline-size: 350px;
+  height: 150px;
+  block-size: 150px;
+  margin: 10px;
+  padding: 25px;
+  background-color: blue;
+  border: 5px solid black;
+}
